@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+</body>
+</html>
+
+<table>
+		<tr th:each="thre: ${Thre}" class="rentalTable">
+				<td th:text="$thre.title}"></td>
+				<td th:text="$thre.id}"></td>
+				
+		</tr>
+</table>
